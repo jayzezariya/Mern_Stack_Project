@@ -6,7 +6,7 @@ const bodyParser = require('body-parser');
 const cors = require('cors');
 const Student = require('./FacultyBack');//local module relative path 
 const FacultyBack = require('./FacultyBack');
-const connectString = "mongodb+srv://prince:shreya@cluster0.6edjq.mongodb.net/Prince";
+const connectString = "mongodb+srv://jayzezariya:jay21106354840848@cluster0.n6pxt.mongodb.net/";
 const port = 4000;
 
 mongoose.connect(connectString).then(()=>{
